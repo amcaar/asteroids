@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dip"
+    tools:context=".Localizacion" >
+
+    <TextView
+        android:id="@+id/titulo"
+        style="@style/TextoAsteroides"
+        android:text="@string/asteroides"
+        android:textSize="35sp "/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:background="@color/color_boton"
+        android:layout_marginBottom="10dip"
+        android:text="@string/jugar"
+        android:onClick="lanzarJuego" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:background="@color/color_boton"
+        android:layout_marginBottom="10dip"
+        android:text="@string/configurar"
+        android:onClick="lanzarPreferencias" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:background="@color/color_boton"
+        android:layout_marginBottom="10dip"
+        android:text="@string/acercade"
+        android:onClick="lanzarAcercaDe" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:background="@color/color_boton"
+        android:layout_marginBottom="10dip"
+        android:text="@string/puntuacion"
+        android:onClick="lanzarPuntuaciones" />
+
+</LinearLayout>
+
+        <!-- Pretendemos hacer que cambie el color cuando se pulse el boton con android:background="@drawable/estilo_boton" Pero no funciona :S -->

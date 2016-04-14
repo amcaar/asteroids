@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencias_principal" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="musica"
+        android:summary="@string/descripcionmusica"
+        android:title="@string/titulomusica" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="efectos"
+        android:summary="@string/descripcionefectos"
+        android:title="@string/tituloefectos" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="vibrar"
+        android:summary="@string/descripcionvibrar"
+        android:title="@string/titulovibrar" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/tiposGraficos"
+        android:entryValues="@array/tiposGraficosValores"
+        android:key="graficos"
+        android:summary="@string/descripciongraficos"
+        android:title="@string/titulograficos" />
+
+    <EditTextPreference
+        android:defaultValue="3"
+        android:key="fragmentos"
+        android:summary="@string/descripcionfragmentos"
+        android:title="@string/titulofragmentos" />
+    
+    <ListPreference
+        android:defaultValue="6"
+        android:entries="@array/tiposAlmacenPuntuaciones"
+        android:entryValues="@array/tiposAlmacenPuntuacionesValores"
+        android:key="almacenamiento"
+        android:summary="@string/descripcionalmacenamiento"
+        android:title="@string/tituloalmacenamiento" />
+
+</PreferenceScreen>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Asteroids</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="asteroides">Asteroids</string>
+    <string name="jugar">Play</string>
+    <string name="acercade">About us</string>
+    <string name="configurar">Configure</string>
+    <string name="salir">Exit</string>
+    <string name="acercade_text">\t This app has been developed as a example in the Android course. Its objective is to demonstrate how you can throw new activities from the principal activity.\n\n\t Developed by Amanda Calatrava. \n</string>
+	<string name="acercadialog">About &#8230;</string>
+	<string name="preferencias">Preferences</string>
+	<string name="puntuacion">Rating</string>
+	<string name="puntuacionvacio">There are not available ratings</string>
+	<string name="preguntasalir">Are you sure?</string>
+    <string name="si">Yes</string>
+    <string name="no">No</string>
+    <string name="fin">Game over!</string>
+    <string name="aceptar">Ok</string>
+    <string name="nombre">Your name:</string>
+    <string name="memin">File in internal memory</string>
+    <string name="memex">File in external memory</string>
+    <string name="recapp">Resource of the app (Only lecture)</string>
+    <string name="titulomusica">Reproduce music</string>
+    <string name="descripcionmusica">Activate/deactivate background music</string>
+    <string name="tituloefectos">Sound effects</string>
+    <string name="descripcionefectos">Activate/deactivate sound effects</string>
+    <string name="titulograficos">Graphics type</string>
+    <string name="descripciongraficos">Choose the type of graphic representation</string>
+    <string name="titulofragmentos">Number of fragments</string>
+    <string name="descripcionfragmentos">Configure the number of fragments of asteroids</string>
+    <string name="titulovibrar">Vibrate</string>
+    <string name="descripcionvibrar">Activate/deactivate vibration when you destroy an asteroid</string>
+    <string name="tituloalmacenamiento">Score storage</string>
+    <string name="descripcionalmacenamiento">Choose the type of storage for the obtained scores</string>
+	
+</resources>

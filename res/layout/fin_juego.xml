@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="25dip" >
+
+    <TextView
+        android:id="@+id/fin"
+        style="@style/TextoAsteroides"
+        android:text="@string/fin"
+        android:textSize="35sp " />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10px" >
+
+        <TextView
+            android:id="@+id/label1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label1"
+            android:background="@android:drawable/editbox_background" />
+
+        <Button
+            android:id="@+id/okNombre"
+            android:layout_width="120px"
+            android:layout_height="50px"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/nombre"
+            android:text="@string/aceptar" 
+            android:onClick="lanzarFinDelJuego" />
+    </RelativeLayout>
+
+</LinearLayout>

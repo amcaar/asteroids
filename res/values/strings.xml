@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Asteroides</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="asteroides">Asteroides</string>
+    <string name="jugar">Jugar</string>
+    <string name="acercade">Acerca de</string>
+    <string name="configurar">Configurar</string>
+    <string name="salir">Salir</string>
+    <string name="acercade_text">\t Este programa ha sido desarrollado como ejemplo en el curso de Android para demostrar cómo se pueden lanzar nuevas actividades desde la actividad principal.\n\n\t Desarrollado por Amanda Calatrava. \n</string>
+	<string name="acercadialog">Acerca de &#8230;</string>
+	<string name="preferencias">Preferencias</string>
+	<string name="puntuacion">Puntuaciones</string>
+	<string name="puntuacionvacio">No hay puntuaciones disponibles</string>
+	<string name="preguntasalir">¿Seguro que deseas salir?</string>
+    <string name="si">Sí</string>
+    <string name="no">No</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="nombre">Introduce tu nombre:</string>
+    <string name="fin">¡Fin del juego!</string>
+    <string name="memin">Fichero en memoria interna</string>
+    <string name="memex">Fichero en memoria externa</string>
+    <string name="recapp">Recurso de la aplicación (Solo lectura)</string>
+    <string name="titulomusica">Reproducir música</string>
+    <string name="descripcionmusica">Activa/desactiva la música de fondo</string>
+    <string name="tituloefectos">Efectos de sonido</string>
+    <string name="descripcionefectos">Activa/desactiva los efectos sonoros</string>
+    <string name="titulograficos">Tipo de gráficos</string>
+    <string name="descripciongraficos">Elige la representación de gráficos</string>
+    <string name="titulofragmentos">Número de Fragmentos</string>
+    <string name="descripcionfragmentos">Configura en cuantos trozos se divide un asteroide</string>
+    <string name="titulovibrar">Vibración</string>
+    <string name="descripcionvibrar">Activa/desactiva la vibración al destruir los asteroides</string>
+    <string name="tituloalmacenamiento">Almacenamiento de puntuaciones</string>
+    <string name="descripcionalmacenamiento">Selecciona la forma de almacenar las puntuaciones obtenidas</string>
+</resources>
